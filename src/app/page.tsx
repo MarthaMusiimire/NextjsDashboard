@@ -15,8 +15,8 @@ export default function HomePage() {
         </p>
 
         <div className="space-x-4">
-          <Button onClick={() => router.push("/login")}>Login</Button>
-          <Button variant="outline" onClick={() => router.push("/signup")}>Sign Up</Button>
+          <Button onClick={() => router.push("/dashboard/reports")}>Dashboard</Button>
+         
         </div>
       </div>
     </div>
